@@ -39,17 +39,20 @@ article {
   padding: 70px;
   text-align: center;
   color: white;
+  opacity: 0.5;
   transition: opacity 1s linear;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 article:hover {
-  opacity: 6;
+  opacity: 1;
 }
 
-#gold { background-color: gold; }
-#brown { background-color: brown; }
-#blueviolet { background-color: blueviolet; }
-#midnightblue { background-color: midnightblue; }
+#gold { background: gold; color: white; }
+#brown { background: brown; color: white; }
+#blueviolet { background: blueviolet; color: white; }
+#midnightblue { background: midnightblue; color: white; }
 
 /* Responsivo */
 @media (max-width: 1200px) {
