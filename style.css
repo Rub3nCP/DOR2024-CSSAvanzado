@@ -72,13 +72,14 @@ form {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 20px;
 }
 
 fieldset {
   border: none;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
 }
 
 input[type="email"] {
